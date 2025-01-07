@@ -170,6 +170,7 @@
   slackdump
   yt-dlp
   mumble
+  (pkgs.mumble.override { pulseSupport = true; })
 
   # Libraries
   jre17_minimal
@@ -212,4 +213,10 @@
   
   # Enable flatpak
   services.flatpak.enable = true;
+
+  #Install Murmur
+    services.murmur = {
+    enable = true;
+    openFirewall = true;
+  };
 }
