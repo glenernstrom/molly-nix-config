@@ -125,9 +125,6 @@
   # Science!
   R-with-my-packages
   RStudio-with-my-packages
-  fiji
-  glib
-  adwaita-icon-theme
 
   # Passwords and Security
   bitwarden-desktop
@@ -172,6 +169,9 @@
   slack
   slackdump
   yt-dlp
+
+  # Libraries
+  jre17_minimal
 
   ];
 
