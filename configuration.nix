@@ -233,6 +233,7 @@
     openssl
     curl
     expat
+    jre17_minimal
     # ...
   ]; 
 
