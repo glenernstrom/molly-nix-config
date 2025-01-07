@@ -17,7 +17,7 @@
       lib = nixpkgs.lib;
     in {
     nixosConfigurations = {
-     molly = lib.nixosSystem {
+     orpheus = lib.nixosSystem {
        system = "x86_64-linux";
        modules = [ ./configuration.nix ];
      };
