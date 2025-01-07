@@ -169,6 +169,7 @@
   slack
   slackdump
   yt-dlp
+  mumble
 
   # Libraries
   jre17_minimal
