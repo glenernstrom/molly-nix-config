@@ -174,7 +174,7 @@
 
   # Libraries
   jre17_minimal
-
+  gst_all_1.gstreamer
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -214,10 +214,6 @@
   # Enable flatpak
   services.flatpak.enable = true;
 
-  # Install Murmur
-    services.murmur = {
-    enable = true;
-    openFirewall = true;
   };
 
   # Enable nix-ld
